@@ -1,0 +1,36 @@
+<resources>
+
+    <string-array name="governerator">
+        <item>Cairo</item>
+        <item>Alexandria</item>
+        <item>Menofia</item>
+        <item>Suez</item>
+    </string-array>
+    <string-array name="cairo_regions">
+        <item>Cairo1</item>
+        <item>Cairo2</item>
+        <item>Cairo4</item>
+    </string-array>
+    <string-array name="alex_regions">
+        <item>Alex1</item>
+        <item>Alex2</item>
+    </string-array>
+    <string-array name="speciality">
+        <item>Eye</item>
+        <item>Heart</item>
+        <item>Stomach</item>
+    </string-array>
+
+
+    <string name="app_name">TabibApp</string>
+    <string name="tab_text_1">Search</string>
+    <string name="tab_text_2">My dates</string>
+    <string name="tab_text_3">My doctors</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

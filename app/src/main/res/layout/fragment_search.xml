@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15dp"
+    android:background="@mipmap/ic_launcher_foreground">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Select region and specialty:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <AutoCompleteTextView
+            android:id="@+id/governAuto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type Governorator" />
+
+        <AutoCompleteTextView
+            android:id="@+id/regionAuto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type Region" />
+
+        <AutoCompleteTextView
+            android:id="@+id/specialityAuto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type Speciality" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableRight="@drawable/ic_my_location_black_24dp"
+            android:text="Select your location             "
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/doc_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Search by doctor name"
+            android:layout_gravity="left"/>
+    <Button android:id="@+id/btn_search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/ripple_effect"
+
+        android:textColor="@android:color/white"/>
+    </LinearLayout>
