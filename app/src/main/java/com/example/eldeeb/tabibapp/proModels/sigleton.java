@@ -1,4 +1,4 @@
-package com.example.eldeeb.tabibapp;
+package com.example.eldeeb.tabibapp.proModels;
 
 import android.content.Context;
 

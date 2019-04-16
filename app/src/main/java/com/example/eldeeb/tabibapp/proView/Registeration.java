@@ -1,4 +1,4 @@
-package com.example.eldeeb.tabibapp;
+package com.example.eldeeb.tabibapp.proView;
 
 import android.content.DialogInterface;
 import android.support.v7.app.AlertDialog;
@@ -17,6 +17,8 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
+import com.example.eldeeb.tabibapp.R;
+import com.example.eldeeb.tabibapp.proModels.sigleton;
 
 import org.json.JSONArray;
 import org.json.JSONException;

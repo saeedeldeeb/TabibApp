@@ -1,13 +1,15 @@
-package com.example.eldeeb.tabibapp;
+package com.example.eldeeb.tabibapp.proView;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Doctor_All_About extends AppCompatActivity {
+import com.example.eldeeb.tabibapp.R;
+
+public class settings extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_doctor__all__about);
+        setContentView(R.layout.activity_settings);
     }
 }

@@ -1,8 +1,6 @@
-package com.example.eldeeb.tabibapp;
+package com.example.eldeeb.tabibapp.proView;
 
-import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -11,6 +9,9 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
+
+import com.example.eldeeb.tabibapp.R;
+import com.example.eldeeb.tabibapp.proView.docs_list;
 
 
 public class search extends Fragment {
@@ -38,7 +39,7 @@ Button searchbtn;
         searchbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getActivity(),docs_list.class);
+                Intent i = new Intent(getActivity(), docs_list.class);
                 i.putExtra("region",region);
                 i.putExtra("speciality_chosen",speciality);
                 startActivity(i);

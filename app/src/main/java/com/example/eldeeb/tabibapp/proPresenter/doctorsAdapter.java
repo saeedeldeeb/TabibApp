@@ -1,4 +1,4 @@
-package com.example.eldeeb.tabibapp;
+package com.example.eldeeb.tabibapp.proPresenter;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -9,6 +9,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
+
+import com.example.eldeeb.tabibapp.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;

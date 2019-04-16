@@ -1,22 +1,22 @@
-package com.example.eldeeb.tabibapp;
+package com.example.eldeeb.tabibapp.proView;
 
-import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.eldeeb.tabibapp.R;
+
 
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * to handle interaction events.
- * Use the {@link dates#newInstance} factory method to
+  * to handle interaction events.
+ * Use the {@link favorite#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class dates extends Fragment {
+public class favorite extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -27,7 +27,7 @@ public class dates extends Fragment {
     private String mParam2;
 
 
-    public dates() {
+    public favorite() {
         // Required empty public constructor
     }
 
@@ -37,11 +37,11 @@ public class dates extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment dates.
+     * @return A new instance of fragment favorite.
      */
     // TODO: Rename and change types and number of parameters
-    public static dates newInstance(String param1, String param2) {
-        dates fragment = new dates();
+    public static favorite newInstance(String param1, String param2) {
+        favorite fragment = new favorite();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -62,8 +62,9 @@ public class dates extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_dates, container, false);
+        return inflater.inflate(R.layout.fragment_favorite, container, false);
     }
+
 
 
 

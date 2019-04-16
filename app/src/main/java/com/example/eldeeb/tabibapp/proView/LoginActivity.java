@@ -1,4 +1,4 @@
-package com.example.eldeeb.tabibapp;
+package com.example.eldeeb.tabibapp.proView;
 
 
 import android.content.DialogInterface;
@@ -19,6 +19,9 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
+import com.example.eldeeb.tabibapp.R;
+import com.example.eldeeb.tabibapp.proModels.sigleton;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -102,7 +105,7 @@ builder = new AlertDialog.Builder(LoginActivity.this);
                             displayAlert(jsonObject.getString("message"));
                         }else{
                             Toast.makeText(getBaseContext(),"Success Login",Toast.LENGTH_LONG).show();
-                            Intent intent=new Intent(LoginActivity.this,MainActivity.class);
+                            Intent intent=new Intent(LoginActivity.this, MainActivity.class);
                             startActivity(intent);
                         }
                     } catch (JSONException e) {

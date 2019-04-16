@@ -1,4 +1,4 @@
-package com.example.eldeeb.tabibapp;
+package com.example.eldeeb.tabibapp.proPresenter;
 
 public class doctors {
     private String doctor_name;
